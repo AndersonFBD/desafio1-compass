@@ -153,3 +153,33 @@ Footer p{
     margin: 30px;
     align-content: center;
 }
+/*end of shared elements styling*/
+
+
+/*index page related classes*/
+#joystick{
+    width: auto;
+    height: 100vh;
+    object-fit: fill;
+    z-index: -100;
+    position: absolute;
+    left: 50%;
+    /* border: 1px red solid; */
+}
+
+#engines{
+    width: auto;
+    height: 40vh;
+    z-index: -90;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+#section1{
+    display: flex;
+    margin-top: 5vh;
+    width: 90%;
+}
+
+/* end of index styling */
