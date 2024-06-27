@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    margin: 0;
+    background-color: #422F9C;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    align-content: center;
+}
+
+#joystick{
+    width: auto;
+    height: 100vh;
+    object-fit: fill;
+    z-index: -100;
+    position: absolute;
+    left: 50%;
+}
+
+#engines{
+    width: auto;
+    height: 40vh;
+    z-index: -90;
+    position: absolute;
+    left: 40%;
+    top: 18%;
+}
+
+.purple-button{
+    font-family: "Rubik";
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    background-color:#5c4ac3;
+}
+
+.section-base-col{
+    flex-flow: column wrap;
+    height: fit-content;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.content-text{
+    font-family: "Poppins";
+    text-align: left;
+}
+
+/* section1 */
+#section1{
+    display: flex;
+    margin-top: 5vh;
+    width: 50%;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+#section1-colored-text{
+    font-size: 20pt;
+    color: #E87D0E;
+    font-weight: 700;
+}
+
+#section1-main-text{
+    font-weight: 700;
+    font-size: 50pt;
+    width: 65%;
+    margin-bottom: 0;
+}
+
+#section1-secondary-text{
+    font-size: 16pt;
+    font: 500;
+    width: 70%;
+}
+#section1-button{
+    font-size: 16pt;
+    font-family: "Poppins";
+    width: fit-content;
+    margin-top: 4%;
+    padding: 2%;
+    padding-inline: 4%;
+    border-radius: 40px;
+    background-color: #FA8305;
+}
+#section1-button:hover{
+    background-color: #FB9E3C;
+}
+
+/* end of index section1 */
+
+/* start of section 2*/
+#section2{
+    width: 90%;
+    margin-top: 15vh;
+}
+
+.section2-text{
+    font-family: "Rubik";
+}
+
+#section2-title-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#section2-title{
+    font-weight: 700;
+    font-size: 31pt;
+}
+
+#section2-button{
+    width: 12%;
+    padding: 25px;
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+#section2-img-container{
+    display: flex;
+    height: auto;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    /* border: solid 2px red; */
+}
+
+.section2-img-slot{
+    width: 22%;
+}
+
+.section2-img-slot p{
+    font-family: "Rubik";
+    font-size: 22pt;
+    font-weight: 500;
+}
+
+.section2-img{
+    height: auto;
+    width: 100%;
+}
+
+.section2-bottom-text-area{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    justify-content: center;
+}
+
+#section2-bottom-text{
+    font-size: 35pt;
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+}
+

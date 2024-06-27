@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-body{
-    margin: 0;
-    background-color: #422F9C;
-    color: white;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 header {
     /* border: white solid 2px; */
     display: flex;
@@ -155,31 +145,3 @@ Footer p{
 }
 /*end of shared elements styling*/
 
-
-/*index page related classes*/
-#joystick{
-    width: auto;
-    height: 100vh;
-    object-fit: fill;
-    z-index: -100;
-    position: absolute;
-    left: 50%;
-    /* border: 1px red solid; */
-}
-
-#engines{
-    width: auto;
-    height: 40vh;
-    z-index: -90;
-    position: absolute;
-    left: 40%;
-    top: 20%;
-}
-
-#section1{
-    display: flex;
-    margin-top: 5vh;
-    width: 90%;
-}
-
-/* end of index styling */
