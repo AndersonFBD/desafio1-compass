@@ -51,7 +51,7 @@ header {
     flex-flow: row wrap;
     /* border: 5px solid red;     */
     align-items: center;
-    width: 60%;
+    width: 50%;
     height: 10vh;
 }
 
