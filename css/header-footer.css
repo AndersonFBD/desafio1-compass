@@ -127,13 +127,14 @@ Footer p{
     text-align: center;
     size: 80%;
     align-content: center;
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
 }
 
 .social-media-item img{
-    width: 14pt;
+    width: 13pt;
+    text-align: center;
     height: auto;
     object-fit: cover;
 }

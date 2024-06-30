@@ -88,7 +88,52 @@
           </div>
         </div>
       </section>
-      <section>more content</section>
+      <section id="section2">
+        <div id="form-footer">
+          <p id="form-title">Say hello</p>
+          <p id="form-subtitle">
+            Lorem Ipsum is simply dummy text of the printing .
+          </p>
+        </div>
+        <div id="form-body">
+          <form>
+            <div id="form-name-fields">
+              <div id="first-name-field">
+                <label for="first-name-input">First Name</label>
+                <input type="text" name="first-name" id="first-name-input" />
+                <span id="first-name-error">only letters allowed</span>
+              </div>
+              <div id="last-name-field">
+                <label for="last-name-input">Last Name</label>
+                <input type="text" name="last-name" id="last-name-input" />
+                <span id="last-name-error">only letters allowed</span>
+              </div>
+            </div>
+            <div id="email-field">
+              <label for="email-input">Email Adress</label>
+              <input type="email" name="Email" id="email-input" />
+              <span id="email-error">invalid address</span>
+            </div>
+            <div id="message-area">
+              <label for="message-input">Message</label>
+              <textarea
+                type="text"
+                rows="5"
+                name="message-box"
+                id="message-input"
+              ></textarea>
+              <span id="message-box-error"
+                >message must contain at least 10 characters</span
+              >
+            </div>
+            <div id="form-button">
+              <button type="button" id="form-submit-button" disabled>
+                Get in touch
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="footer-container">
