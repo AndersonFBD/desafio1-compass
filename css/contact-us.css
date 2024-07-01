@@ -293,6 +293,22 @@ label{
     cursor: pointer;
 }
 
+#section3{
+    display: flex;
+    width: 80%;
+    margin: 5% 10%;
+}
+#section3-title{
+    font-family: "Poppins";
+    font-size: 30pt;
+    font-weight: 600;
+}
+#section3-text{
+    font-family: "Poppins";
+    font-size: 16pt;
+    width: 50%;
+}
+
 /* shared black box element */
 .black-box{
     display: flex;
@@ -309,7 +325,6 @@ label{
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin: 10% 0;
     margin: 3% 0;
 
 }
@@ -339,6 +354,10 @@ label{
     font-size: 13pt;
     margin: 1%;
     border: none;
+}
+
+.black-box input:focus{
+    outline: none;
 }
 
 #black-box button{

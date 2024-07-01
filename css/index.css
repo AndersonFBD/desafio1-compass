@@ -392,10 +392,12 @@ main{
     margin: 10%;
 }
 #section6-title{
+    font-family: "Poppins";
     font-size: 30pt;
     font-weight: 600;
 }
 #section6-text{
+    font-family: "Poppins";
     font-size: 16pt;
     width: 50%;
 }
@@ -448,6 +450,10 @@ main{
     font-size: 13pt;
     margin: 1%;
     border: none;
+}
+
+.black-box input:focus{
+    outline: none;
 }
 
 #black-box button{
