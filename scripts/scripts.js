@@ -4,7 +4,7 @@ let email = document.getElementById("email-input")
 let message = document.getElementById("message-input")
 let formbtn = document.getElementById("form-submit-button")
 const mailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
-const nameRegex = /^[^\d]+$/
+const nameRegex = /^[a-zA-Z]+$/
 
 
 const form = document.getElementById("contact-form")
@@ -31,7 +31,7 @@ function validarForm(){
         let errmsg = document.getElementById("email-error")
         mostrarErro(errmsg);
     }
-    else if(message.value.length < 10){
+    else if(message.value.trim().length < 10){
         let errmsg = document.getElementById("message-box-error")
         mostrarErro(errmsg);
     }
