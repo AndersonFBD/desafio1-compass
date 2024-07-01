@@ -3,7 +3,7 @@ let lname = document.getElementById("last-name-input")
 let email = document.getElementById("email-input")
 let message = document.getElementById("message-input")
 let formbtn = document.getElementById("form-submit-button")
-const mailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
+const mailRegex = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+|\.([a-z]+)?$/i
 const nameRegex = /^[a-zA-Z]+$/
 
 
