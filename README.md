@@ -49,7 +49,7 @@ The project has five stylesheets, one for each page and one exclusively for the 
 
 ## Project flow
 
-Even though the remote repository has a single branch, the local was worked through 2 branches, a main branch that only received confirmed working features and would push the working commits to the remote repository; and a Dev branch the was used to work on the project, when the feature was complete and it was working as planned, the main would receive the commits made in the dev and then push them.
+Even though the remote repository has a single branch, the local was worked through 2 branches, a main branch that only received confirmed working features and would push the working commits to the remote repository; and a Dev branch that was used to work on the project, when the feature was complete and it was working as planned, the main would receive the commits made in the dev and then push them.
 
 ## Considerations
 
