@@ -158,6 +158,11 @@ main{
     width: 100%;
 }
 
+.section2-img:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+
 .section2-bottom-text-area{
     display: flex;
     margin-top: 5%;
@@ -363,6 +368,11 @@ main{
 
 #section5-image-grid img{
     padding: 12px;
+}
+
+#section5-image-grid img:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
 }
 
 #section5-button{
