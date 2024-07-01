@@ -96,7 +96,7 @@
           </p>
         </div>
         <div id="form-body">
-          <form>
+          <form id="contact-form" name="form-contact">
             <div id="form-name-fields">
               <div id="first-name-field">
                 <label for="first-name-input">First Name</label>
@@ -127,7 +127,12 @@
               >
             </div>
             <div id="form-button">
-              <button type="button" id="form-submit-button" disabled>
+              <button
+                type="button"
+                onclick="validarForm()"
+                id="form-submit-button"
+                disabled
+              >
                 Get in touch
               </button>
             </div>
@@ -246,5 +251,6 @@
         <span>Copyright ® 2022 prodesigner All rights Reserved</span>
       </div>
     </footer>
+    <script src="./scripts/scripts.js"></script>
   </body>
 </html>
