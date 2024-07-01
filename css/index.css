@@ -62,7 +62,6 @@ main{
     text-align: left;
 }
 
-/* section1 */
 #section1{
     display: flex;
     margin-top: 5vh;
@@ -103,9 +102,7 @@ main{
     background-color: #FB9E3C;
 }
 
-/* end of index section1 */
 
-/* start of section 2*/
 #section2{
     width: 80%;
     margin-left: 10%;
@@ -174,9 +171,7 @@ main{
     text-align: center;
     width: 60%;
 }
-/* end of section 2 */
 
-/* start of section 3 */
 #section3{
     width: 80%;
     margin-left: 10%;
@@ -217,9 +212,7 @@ main{
     position: relative;
 }
 
-/* end of section 3 */
 
-/* start of section 4 */
 
 #section4{
     display: flex;
@@ -328,9 +321,7 @@ main{
     text-align: center;
     width: 300px;    
 }
-/* end of section 4 */
 
-/* start of section 5 */
 #section5{
     display: flex;
     margin: 10% 10% 0 10%;
@@ -341,7 +332,6 @@ main{
 }
 
 #section5-text-div{
-    /* border: red 1px solid; */
     height: auto;
     width: 100%;
     display: flex;
@@ -363,7 +353,6 @@ main{
 
 #section5-image-grid{
     width: 100%;
-    /* border: red 1px solid; */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -383,9 +372,7 @@ main{
     
 }
 
-/* end of section 5 */
 
-/* start of section 6 */
 #section6{
     display: flex;
     width: 80%;
@@ -402,9 +389,7 @@ main{
     width: 50%;
 }
 
-/* end of section 6 */
 
-/* shared black box element */
 .black-box{
     display: flex;
     width: 100%;

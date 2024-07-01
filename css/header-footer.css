@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 header {
-    /* border: white solid 2px; */
     display: flex;
     flex-flow: row wrap;
     min-height: 80px;
@@ -54,7 +53,6 @@ a{
 #header-menu{
     display: flex;
     flex-flow: row wrap;
-    /* border: 5px solid red;     */
     align-items: center;
     width: 50%;
     height: 10vh;
@@ -68,11 +66,9 @@ a{
 }
 
 
-/*footer related styling only*/
 footer{
     margin-top: auto;
     width: 100%;
-    /* height: 30vh; */
     background-color: black;
     flex-flow: column wrap;
     text-align: center;
@@ -122,7 +118,6 @@ Footer p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* border: solid red; */
     height: 20%;
     width: 60%;
 }
@@ -149,5 +144,4 @@ Footer p{
     margin: 30px;
     align-content: center;
 }
-/*end of shared elements styling*/
 
