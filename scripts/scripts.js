@@ -55,3 +55,11 @@ async function armazenar(fname, lname, email, message){
     localStorage.setItem("email", email.value);
     localStorage.setItem("message", message.value);
 } 
+
+function mailCheck(){
+    let mailField = document.getElementById("black-box-email-field");
+    if(mailRegex.test(mailField.value)){
+        alert("mail subscribed!");
+        mailField.value = " ";
+    }
+}
